@@ -45,6 +45,7 @@ public class Tested2 {
                             String[]  strs=ff.split(",");
                             list.add(strs);
                         }
+
                         ff=null;
                     }
                     String[]  strs=gg.split(",");
