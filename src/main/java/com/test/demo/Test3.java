@@ -15,11 +15,10 @@ public class Test3 {
         System.out.println("第二题输出：" + Arrays.toString(reArray(trim, 18)));
     }
 
-    //数组去重复
+    //数组去重复-->重复对象去掉
     private static int[] trim(int[] arry) {
         int t = 0;
         int[] newary = new int[arry.length];
-
         for (int i = 0; i < arry.length; i++) {
             boolean isTrue = true;
             for (int j = i + 1; j < arry.length; j++) {
