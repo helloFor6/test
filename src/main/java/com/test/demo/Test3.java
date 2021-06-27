@@ -14,6 +14,7 @@ public class Test3 {
         Sort(list);
         int[] trim = trim(list);
 
+
         System.out.println("第二题输出：" + Arrays.toString(reArray(trim, 18)));
     }
 
