@@ -15,6 +15,7 @@ public class Test3 {
         System.out.println("第二题输出：" + Arrays.toString(reArray(trim, 18)));
     }
 
+    //数组去重复
     private static int[] trim(int[] arry) {
         int t = 0;
         int[] newary = new int[arry.length];
@@ -40,6 +41,7 @@ public class Test3 {
         return newArry;
     }
 
+    //冒泡排序
     public static void Sort(int[] array) {
         for (int i = 1; i < array.length; i++) {
             for (int j = 0; j < array.length - i; j++) {
@@ -53,6 +55,7 @@ public class Test3 {
         }
     }
 
+
     public static int[] getList(int x) {
         int[] arrs = new int[x];
         for (int i = 0; i < x; i++) {
@@ -61,7 +64,7 @@ public class Test3 {
         }
         return arrs;
     }
-
+    //数组重组
     public static Object[] reArray(int[] array, int z) {
         Object[] x = new Object[z / 2];
         int k = 0;
